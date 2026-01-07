@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using RAMSPDToolkit.I2CSMBus.Interop.PawnIO;
 using RAMSPDToolkit.Windows.Driver.Interfaces;
 
-namespace LibreHardwareMonitor;
 
+namespace LibreHardwareMonitor;
 internal sealed class RAMSPDToolkitDriver : IPawnIODriver
 {
     const string I801ModuleFilename = "SmbusI801.bin";
